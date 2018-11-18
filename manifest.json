@@ -1,0 +1,28 @@
+{
+  "id" : "65c1f66e",
+  "name" : "Bacon and replace",
+  "description" : "Search and replace text in selected items",
+  "version" : "1.0.0",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "icons" : [
+    {
+      "path" : "images/icon.png",
+      "width" : 96,
+      "height" : 96
+    }
+  ],
+  "uiEntryPoints" : [
+    {
+      "label" : "Bacon and replace",
+      "type" : "menu",
+      "commandId" : "showSearchAndReplace",
+      "shortcut": {
+        "mac": "Cmd+Shift+B",
+        "win": "Ctrl+Shift+B"
+      }
+    }
+  ]
+}
